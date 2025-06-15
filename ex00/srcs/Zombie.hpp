@@ -6,7 +6,7 @@
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 11:55:51 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/06/15 14:16:53 by hugo-mar         ###   ########.fr       */
+/*   Updated: 2025/06/15 20:14:44 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ public:
 	void announce( void ) const;
 };
 
-Zombie*	newZombie( const std::string& name );
-void	randomChump( const std::string& name );
+Zombie*	newZombie( std::string name );
+void	randomChump( std::string name );
 
 #endif

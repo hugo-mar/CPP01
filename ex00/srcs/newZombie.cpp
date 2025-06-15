@@ -6,13 +6,13 @@
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 12:32:11 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/06/15 14:09:33 by hugo-mar         ###   ########.fr       */
+/*   Updated: 2025/06/15 20:13:50 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-Zombie* newZombie( const std::string& name ) {
+Zombie* newZombie( std::string name ) {
 
 	return new Zombie(name);
 }
