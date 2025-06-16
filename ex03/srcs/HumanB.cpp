@@ -1,26 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   zombieHorde.cpp                                    :+:      :+:    :+:   */
+/*   HumanB.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/15 20:22:17 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/06/16 00:14:45 by hugo-mar         ###   ########.fr       */
+/*   Created: 2025/06/16 23:30:14 by hugo-mar          #+#    #+#             */
+/*   Updated: 2025/06/16 23:55:40 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.hpp"
+#include "HumanB.hpp"
 
-Zombie*	zombieHorde( int N, std::string name ) {
+HumanB::HumanB( const std::string& name )
+	:	_name(name),
+		_weapon(NULL) {
 
-	if (N <= 0)
-		return NULL;
+}
 
-	Zombie* horde = new Zombie[N];
+void	HumanB::setWeapon(Weapon& weapon) {
 
-	for (int i = 0; i < N; ++i)
-		horde[i].setName(name);
+	_weapon = &weapon;
+}
 
-	return horde;
+void HumanB::attack() const {
+
+	if (this->_weapon)
+		std::cout << this->_name << " attacks with their " << this->_weapon->getType() << '\n';
+	else
+		std::cout << this->_name << " tries to attack but is unarmed\n";
 }
