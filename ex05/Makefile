@@ -6,7 +6,7 @@
 #    By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/18 19:14:20 by hugo-mar          #+#    #+#              #
-#    Updated: 2025/06/18 19:16:54 by hugo-mar         ###   ########.fr        #
+#    Updated: 2025/06/24 08:34:57 by hugo-mar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = harl
 
 ARCHIVE = harl.a
 
-CXX = g++
+CXX = c++
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 

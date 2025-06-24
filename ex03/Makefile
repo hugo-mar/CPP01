@@ -6,7 +6,7 @@
 #    By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/16 00:19:08 by hugo-mar          #+#    #+#              #
-#    Updated: 2025/06/16 00:23:14 by hugo-mar         ###   ########.fr        #
+#    Updated: 2025/06/24 08:35:12 by hugo-mar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = violence
 
 ARCHIVE = violence.a
 
-CXX = g++
+CXX = c++
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 

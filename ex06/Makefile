@@ -5,14 +5,14 @@
 #                                                     +:+ +:+         +:+      #
 #    By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/06/18 13:11:42 by hugo-mar          #+#    #+#              #
-#    Updated: 2025/06/24 08:34:38 by hugo-mar         ###   ########.fr        #
+#    Created: 2025/06/18 19:14:20 by hugo-mar          #+#    #+#              #
+#    Updated: 2025/06/24 08:45:17 by hugo-mar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = replace
+NAME = harlFilter
 
-ARCHIVE = replace.a
+ARCHIVE = harlFilter.a
 
 CXX = c++
 
@@ -22,7 +22,7 @@ MAKE_LIB = ar -rcs
 
 SRCS_PATH = ./srcs/
 
-SRCS = $(SRCS_PATH)main.cpp $(SRCS_PATH)replace_utils.cpp
+SRCS = $(SRCS_PATH)main.cpp $(SRCS_PATH)Harl.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

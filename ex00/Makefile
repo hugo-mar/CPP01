@@ -6,7 +6,7 @@
 #    By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/15 14:18:14 by hugo-mar          #+#    #+#              #
-#    Updated: 2025/06/15 14:21:05 by hugo-mar         ###   ########.fr        #
+#    Updated: 2025/06/24 08:36:10 by hugo-mar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = zombie
 
 ARCHIVE = zombie.a
 
-CXX = g++
+CXX = c++
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 

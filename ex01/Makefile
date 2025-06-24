@@ -6,7 +6,7 @@
 #    By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/15 21:02:28 by hugo-mar          #+#    #+#              #
-#    Updated: 2025/06/15 21:03:20 by hugo-mar         ###   ########.fr        #
+#    Updated: 2025/06/24 08:35:49 by hugo-mar         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = horde
 
 ARCHIVE = horde.a
 
-CXX = g++
+CXX = c++
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 
